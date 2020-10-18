@@ -3,7 +3,6 @@ apt-get install bridge-utils
 
 #Connection to the VPN network
 echo "1 - Connection to VPN network..."
-wg-quick down gre5
 wg-quick up gre5
 
 # Create a bridge named vbr0
