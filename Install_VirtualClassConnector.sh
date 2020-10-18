@@ -8,5 +8,5 @@ sudo apt-get install git wireguard* resolvconf bridge-utils
 echo "3- Scripts download..."
 git clone https://github.com/khadim210/VirtualHybridClassroom /usr/bin/VirtualHybridClassroom
 sudo echo "export PATH=\"/usr/bin/VirtualHybridClassroom:$PATH\"" >> ~/.bashrc
-
+sudo cp /usr/bin/VirtualHybridClassroom/myVirtualClassroom.conf /etc/wireguard/
 
